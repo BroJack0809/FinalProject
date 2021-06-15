@@ -6,15 +6,15 @@ import {
   HashRouter as Router,
   Route,
 } from 'react-router-dom'
-import ToDo from './ToDo';
 import SignIn from './Signin';
+import User from './Main';
 
 ReactDOM.render(
   <Router>
     <div>
       <Route  exact path="/" component={SignIn}/>
       <Route  path="/about" >
-      <ToDo/>
+      <User/>
       </Route>
     </div>
   </Router>,

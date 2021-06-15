@@ -12,9 +12,7 @@ import Grid from '@material-ui/core/Grid';
 import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
-import {
-    Link,
-  } from 'react-router-dom'
+import {Link} from 'react-router-dom'
 function Copyright() {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
@@ -71,7 +69,7 @@ export default function SignIn() {
             <LockOutlinedIcon />
           </Avatar>
           <Typography component="h1" variant="h5">
-            Sign in CSIE@CGU
+            登入首頁
           </Typography>
           <form className={classes.form} noValidate>
             <TextField
@@ -80,7 +78,7 @@ export default function SignIn() {
               required
               fullWidth
               id="email"
-              label="Your Email/帳號"
+              label="請輸入你的Email"
               name="email"
               autoComplete="email"
               autoFocus
@@ -91,7 +89,7 @@ export default function SignIn() {
               required
               fullWidth
               name="password"
-              label="Password/密碼"
+              label="請輸入密碼"
               type="password"
               id="password"
               autoComplete="current-password"
@@ -106,10 +104,10 @@ export default function SignIn() {
               type="submit"
               fullWidth
               variant="contained"
-              color="secondary"
+              color="primary"
               className={classes.submit} 
             >
-              Sign In
+            登入
             </Button></Link>
             </switch>
             <Grid container>

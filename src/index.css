@@ -107,3 +107,9 @@ code {
 	text-align: center;
 	padding-top: 30px;
 }
+div{
+	background:linear-gradient(to right,#0066CC,#2894FF,#00FFFF,#00E3E3);
+}
+button{
+	border-radius: 20px;
+}
