@@ -1,4 +1,5 @@
 import React from 'react';
+
 function User(){
     return(
         <div className="User" color="#0066CC">
@@ -12,4 +13,5 @@ function User(){
         </div>
     );
 }
+
 export default User;
